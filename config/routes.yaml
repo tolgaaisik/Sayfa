@@ -1,0 +1,10 @@
+
+hello:
+  path: /test
+  controller: App\Controller\ContactController::contact
+welcome:
+  path:     /blog
+  controller: App\Controller\WelcomeController::index
+controller:
+  path:  /form
+  controller: App\Controller\ContactController::index
